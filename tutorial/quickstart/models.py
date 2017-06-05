@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.db import models
+from neo4django.db import models
 
-# Create your models here.
+class Person(models.NodeModel):
+    name = models.StringProperty()
+    age = models.IntegerProperty()
+
+    friends = models.Relationship('self',rel_type='friends_with')
