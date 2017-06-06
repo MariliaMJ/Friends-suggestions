@@ -1,4 +1,4 @@
-Django==1.4.22
+Django==1.11.2
 virtualenv==15.1.0
 lucene-querybuilder==0.2
 neo4django==0.1.8
