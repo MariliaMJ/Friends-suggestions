@@ -1,0 +1,14 @@
+nohup: ignorando entrada
+2017-06-09 05:02:12.732+0000 INFO  ======== Neo4j 3.2.1 ========
+2017-06-09 05:02:12.833+0000 INFO  No SSL certificate found, generating a self-signed certificate..
+2017-06-09 05:02:14.849+0000 INFO  Starting...
+2017-06-09 05:02:16.913+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2017-06-09 05:02:25.807+0000 INFO  Started.
+2017-06-09 05:02:29.181+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignorando entrada
+2017-06-09 05:39:14.501+0000 INFO  ======== Neo4j 3.2.1 ========
+2017-06-09 05:39:15.444+0000 INFO  Starting...
+2017-06-09 05:39:18.194+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2017-06-09 05:39:28.693+0000 INFO  Started.
+2017-06-09 05:39:32.094+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-09 05:41:05.520+0000 WARN  Failed authentication attempt for 'neo4j' from 127.0.0.1
