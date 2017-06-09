@@ -1,12 +1,12 @@
 from django.contrib.auth.models import Person
 from rest_framework import viewsetstes
 
-class UserViewSet(viewsets.ModelViewSet):
+class PersonViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = User.objects.all().order_by('-date_joined')
-    serializer_class = UserSerializer
+    queryset = Person.objects.all()
+    serializer_class = PersonSerializer
 
 
 class GroupViewSet(viewsets.ModelViewSet):
