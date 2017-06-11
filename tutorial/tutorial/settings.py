@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'neo4django.graph_auth',
+    'south',
 ]
 
 REST_FRAMEWORK = {
